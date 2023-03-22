@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;  /* Font usado em todos os elementos da div body, exceto o h1 que tem um valor maior na ordem */
+    text-align: center; /* alinhamento de texto , texto centralizado */
+    margin: 0; /* quando usamos o atributo margin, ele serve para todos os lados top, right, bottom e left, sempre seguindo em sentido horário,
+    portanto quando usamos o valor margin 0, queremos mexer só no top da página, naturalmente o navegador da uma margem no top de 8px, entao quando colocamos o valor 0 queremos tirar essa margem/espaço que o navegador da */
+    
+    }
+
+    #hero {
+        width: 592px; /* aqui estamos dando a largura da div hero com 592px, como no layout do projeto,*/
+        margin: auto; /* margin auto significa que queremos a largura de todos os lados da div iguais, porém só funciona com right e left*/
+        margin-bottom: 0 auto 72px; /* aqui é o agrupamento das margens, sempre em sentido horário, 0 foi usado primeiro, foi pro top, colando a div e deixando sem espaços, auto foi usado para right left igualando a largura das laterais e 72px é para distanciar o bottom da próxima div */
+    }
+
+    #hero img {
+        margin-bottom: 72px; /* aqui usamos margin botto para dar uma distancia para baixo do próximo atributo, que seria o h1 dando uma distância de 20px*/
+    }
+
+h1 {
+    font-family: 'Inter', sans-serif; /* font usada no título h1 */
+    size: 49px; /* tamanho da font */
+    line-height: 56px; /*altura das font */
+    font-weight: normal; /*peso da font, se é bold, italic, normal*/
+    margin-bottom: 32px; /* distancia do h1 para próxima tag, no caso a tag p */
+}
+
+h1 span {
+    font-weight: bold; /* usanmos h1 span para mexer somente na tag span que esta dentro do h1 e demos um peso a ela de bold-negrito*/
+}
+
+span,a {
+    color: 
+    #FF9900; /* usamos a cor laranja com o código hexadecimal pego no figma nas tags span e  */
+}
+
+p, #footer { 
+    color: #7D7987; /* usamos a cor cinza com o código hexadecimal pego no fima nas tags p*/
+    font-size: 14px; /* tamanho do texto da tag p paragráfo*/
+    line-height: 28px; /*altura da font da tag p */
+    
+}
+
+#footer {
+    margin-bottom: 33px;
+}
+
+#footer a + a {
+    margin-left: 28px;
+}
+ 
+.line {
+    width: 568px;
+    height: 0px;
+  
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+  
+  
+  #balls {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
